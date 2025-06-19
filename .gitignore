@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+server.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Flutter
+flutter_client/.dart_tool/
+flutter_client/.flutter-plugins
+flutter_client/.flutter-plugins-dependencies
+flutter_client/.packages
+flutter_client/.pub-cache/
+flutter_client/.pub/
+flutter_client/build/
+flutter_client/ios/Flutter/Generated.xcconfig
+flutter_client/ios/Runner/GeneratedPluginRegistrant.*
+flutter_client/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+flutter_client/android/.gradle/
+flutter_client/android/captures/
+flutter_client/android/gradlew
+flutter_client/android/gradlew.bat
+flutter_client/android/local.properties
+flutter_client/android/**/GeneratedPluginRegistrant.java
+
+# File uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+test_file.txt
+*.bak
+
+# Environment variables
+.env
+.env.local
+.env.production
